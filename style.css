@@ -1,0 +1,64 @@
+body {
+    background: url("https://images7.alphacoders.com/893/thumb-1920-893578.jpg") no-repeat center
+      center fixed;
+    background-size: cover;
+    font-family: "Gabarito", sans-serif;
+    margin: 20;
+    position: relative;
+  }
+  
+  .logo {
+    text-align: end;
+  }
+  
+  .logo img {
+    width: 40%;
+  }
+  
+  /* Caixa principal do jogo */
+  .conteudo-jogo {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 5px #ff1b7b;
+    padding: 20px 40px;
+    border-radius: 8px;
+  }
+  
+  /* Títulos e textos */
+  h2 {
+    color: white;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  h3 {
+    color: white;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 1.2em;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    background: #00BFFF;
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 10px;
+  }
